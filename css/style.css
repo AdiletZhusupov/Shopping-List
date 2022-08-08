@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.container{
+    width: 600px;
+    margin: 0 auto;
+}
+.grocery-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+}
+.action-update{
+    line-height: 30px;
+    margin: 10px 0;
+    height: 30px;
+    width: 90%;
+    text-align: center;
+    border-radius: 5px;
+    visibility: hidden;
+}
+.red{
+    background-color: rgb(182, 30, 30);
+    color: black;
+}
+.green{
+    background-color: rgb(15, 193, 15);
+    color: white;
+}
+.main-word{
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+.form{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: none;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.input-text{
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 5px 0 5px 10px;
+    width: 80%;
+    font-size: 16px;
+    background-color: whitesmoke;
+}
+.btn{
+    display: inline-block;
+    padding: 5px 0;
+    width: 20%;
+    border: none;
+    background-color: skyblue;
+    letter-spacing: 5px;
+    transition: 0.7s;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(23, 163, 163);
+    color: white;
+}
+.btn-edit{
+    display: none;
+}
+.grocery-box{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.list{
+    display: flex;
+    margin: 0 auto 10px auto;
+    width: 90%;
+    padding: 5px 0 5px 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+.list:hover{
+    background-color: whitesmoke;
+}
+.list-text{
+    text-transform: capitalize;
+    width: 90%;
+}
+.list-btn{
+    cursor: pointer;
+}
+.edit{
+    color: rgb(15, 193, 15);
+}
+.delete{
+    color: red;
+    margin-left: 10px;
+}
+.edit:hover{
+    color: green;
+}
+.delete:hover{
+    color: rgb(182, 30, 30);
+}
+.btn-clear{
+    display: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    color: red;
+}
+.btn-clear:hover{
+    color: rgb(182, 30, 30);
+}
